@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { Link } from 'react-router-dom';
+import { toast } from 'react-hot-toast';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../UserContext/UserContext';
 
 const Singup = () => {
-
-  const {createUser} = useContext(AuthContext)
+  const navigate = useNavigate()
+  const {createUser, veriFy} = useContext(AuthContext)
 
   const handle = (event) =>{
     event.preventDefault()
@@ -20,9 +21,18 @@ const Singup = () => {
       const user = res.user 
       console.log(user);
       form.reset()
+      handleEmail()
+      toast.success('check email for verify')
+      navigate('/')
     })
     .catch(error => console.error(error))
   
+  }
+
+  const handleEmail =()=>{
+    veriFy()
+    .then(() => {})
+    .catch(error => console.error(error))
   }
   return (
     <div className='container w-50 mt-5 pt-5'>
