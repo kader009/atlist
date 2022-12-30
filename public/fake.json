@@ -1,0 +1,45 @@
+[
+  {
+    "id":"1311648",
+    "title": "Downward Facing Dog",
+    "description": "Keep both toes pointed towards the fronts of your mat and sink your heels towards the floor.",
+    "img":"https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066__340.jpg",
+    "time":10
+  },
+  {
+    "id":"2616548",
+    "title": "Mountain Pose",
+    "description": "Engage your quads, rotate your thighs inward, and let your arms hang naturally.",
+    "img":"https://cdn.pixabay.com/photo/2018/01/01/01/56/yoga-3053488__340.jpg",
+    "time":12
+  },
+  {
+    "id":"331649",
+    "title": "Extended Side Angle",
+    "description": "Engage your quads, rotate your thighs inward, for more better yoga.",
+    "img":"https://cdn.pixabay.com/photo/2017/11/18/05/02/yoga-2959226__340.jpg",
+    "time":15
+  },
+  {
+    "id":"4697879",
+    "title": "Garland Pose",
+    "description": "Squatting isn't something familiar to most 21st-century humans. However, it's an excellent around the pelvis.",
+    "img":"https://cdn.pixabay.com/photo/2016/11/09/20/53/yoga-1812695__340.jpg",
+    "time":8
+  },
+  {
+    "id":"564312",
+    "title": "Half Forward Bend",
+    "description": "Inhale as you raise your head slightly and draw yours houlders back, making your back as flat as possible.",
+    "img":"https://cdn.pixabay.com/photo/2016/04/01/11/31/female-1300399__340.png",
+    "time":22
+  },
+  {
+    "id":"631489",
+    "title": "Tree Pose",
+    "description": "keep your shoulders down and away form yours ears, and your hips squared.",
+    "img":"https://cdn.pixabay.com/photo/2017/03/26/21/54/yoga-2176668__340.jpg",
+    "time":17
+  }
+
+]
